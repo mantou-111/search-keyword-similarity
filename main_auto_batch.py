@@ -166,7 +166,7 @@ def split_input_to_batches(input_file, batch_size=BATCH_SIZE):
     return batch_files, existing_records
 
 # 处理单个批次，返回结果文件名
-def process_single_batch(batch_file, batch_num, main_py="main-7.12-1.py"):
+def process_single_batch(batch_file, batch_num, main_py="main.py"):
     logger.info(f"\n=== 开始处理批次 {batch_num}: {batch_file.name} ===")
     
     # 检查现有缓存状态
