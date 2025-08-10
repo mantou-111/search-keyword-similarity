@@ -4,11 +4,12 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1+-red.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-一个基于深度学习的搜索词与关键词相似度分析工具，专门为文娱行业设计，能够自动判断搜索词与关键词的相关性，并提供智能化的账户优化建议。
+一个基于深度学习的搜索词与关键词相似度分析工具，基于文娱行业验证，能够自动判断搜索词与关键词的相关性，并提供智能化的账户优化建议。
+日后会持续优化代码，完善其判断精准度和效率，并考虑结合大语言模型（LLM）给出更深入的优化建议，帮助各位优化师提高优化效率。
 
 ## 🌟 主要功能
 
-- **智能相似度计算**: 基于text2vec-bge-large-chinese模型，提供高精度的语义相似度分析
+- **智能相似度计算**: 基于text2vec-bge-large-chinese模型，提供高精度的语义相似度分析，硬件配置较高的情况下建议使用BAAI-bge-large-zh-v1.5模型
 - **多模式运行**: 支持GPU/CPU模式，自动适配不同硬件环境
 - **批量处理**: 支持大规模数据的分批处理，避免内存溢出
 - **智能建议**: 根据相似度自动生成账户优化建议
@@ -179,7 +180,8 @@ search-keyword-similarity/
 
 ## 🙏 致谢
 
-- [text2vec-bge-large-chinese](https://huggingface.co/BAAI/bge-large-zh-v1.5) - 中文语义向量模型
+- [BAAI-bge-large-zh-v1.5](https://huggingface.co/BAAI/bge-large-zh-v1.5) - 中文语义向量模型
+- [text2vec-bge-large-chinese](https://huggingface.co/shibing624/text2vec-bge-large-chinese) - 中文语义向量模型
 - [PyTorch](https://pytorch.org/) - 深度学习框架
 - [Transformers](https://huggingface.co/transformers/) - 预训练模型库
 
@@ -192,4 +194,5 @@ search-keyword-similarity/
 ---
 
 如果这个项目对你有帮助，请给它一个 ⭐️ 星标！
+
 
