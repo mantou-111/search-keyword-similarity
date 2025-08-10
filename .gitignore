@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+pytorch/
+*.pth
+*.pt
+*.pkl
+*.h5
+*.hdf5
+
+# 模型文件
+models/
+*.bin
+*.safetensors
+
+# 缓存文件
+cache/
+*.cache
+*.db
+
+# 输出文件
+output/
+results/
+*.xlsx
+*.csv
+*.log
+
+# 输入数据
+input/
+data/
+*.xlsx
+*.csv
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 程序备份
+程序备份/
+历史版本整理/
+
+# 大型文件
+*.docx
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# 测试文件
+test_*.py
+*_test.py
+test/
+
+# 配置文件（包含敏感信息）
+config_local.py
+.env.local
+secrets.json
