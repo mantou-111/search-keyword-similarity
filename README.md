@@ -187,8 +187,9 @@ search-keyword-similarity/
 
 - 项目主页: [GitHub Repository](https://github.com/your-username/search-keyword-similarity)
 - 问题反馈: [Issues](https://github.com/your-username/search-keyword-similarity/issues)
-- 邮箱: your-email@example.com
+- 邮箱: 962349993@qq.com
 
 ---
 
 如果这个项目对你有帮助，请给它一个 ⭐️ 星标！
+
